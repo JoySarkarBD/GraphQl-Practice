@@ -1,0 +1,53 @@
+const users = [
+  {
+    id: 1,
+    firstName: "Jamboo",
+    lastName: "Papa",
+    gender: "male",
+    phone: "0123456789",
+    email: "jambbo@papa.com",
+    posts: [1, 3],
+    createdAt: "2023-01-22T18:47:59.894Z",
+    password: "Jamboo@123",
+    isActive: false,
+  },
+  {
+    id: 2,
+    firstName: "Goolgool",
+    lastName: "Papa",
+    gender: "male",
+    phone: "0987654321",
+    email: "goolgool@papa.com",
+    posts: [2],
+    createdAt: "2023-01-22T18:47:59.894Z",
+    password: "Goolgool@123",
+    isActive: false,
+  },
+  {
+    id: 3,
+    firstName: "Bruno",
+    lastName: "Papa",
+    gender: "male",
+    phone: "0654987321",
+    email: "bruno@papa.com",
+    posts: [4, 6],
+    createdAt: "2023-01-22T18:47:59.894Z",
+    password: "Bruno@123",
+    isActive: false,
+  },
+  {
+    id: 4,
+    firstName: "Pipi",
+    lastName: "Mama",
+    gender: "female",
+    phone: "9873216540",
+    email: "pipi@mama.com",
+    posts: [5, 7],
+    createdAt: "2023-01-22T18:47:59.894Z",
+    password: "Pipi@123",
+    isActive: false,
+  },
+];
+
+// Module Exports
+module.exports = users;
